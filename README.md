@@ -1,4 +1,4 @@
-# Simulated GTA V Self-Driving Car
+# Simulated Self-Driving Car in GTA V
 
 The objective of this work is to create a self-driving car in the video game GTA V through end-to-end computer vision.  This is done by training a convolutional neural network using screen data while driving.  During testing -- when the car is actually driven -- a YOLOv3 model is used to detect objects in the view of the car and adjust the car's speed, accordingly.
 
