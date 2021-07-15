@@ -5,7 +5,7 @@ import cv2
 import torch
 
 from input_from_game.getkeys import key_check
-from output_to_game.vjoy import vj, setJoy
+from output_to_game.vjoy import vj
 from input_from_game.grabscreen import grab_screen
 
 # for steering and throttle control
