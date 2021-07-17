@@ -2,6 +2,8 @@ import torch.nn as nn
 
 class PilotNet(nn.Module):
     def __init__(self, num_controls: int, dropout: float = 0.):
+        super(PilotNet, self).__init__()
+
         self.convolutional_block = nn.Sequential(
             # 1st layer
             nn.Conv2d(1, 24, kernel_size=(5,5), stride=(2,2)),
