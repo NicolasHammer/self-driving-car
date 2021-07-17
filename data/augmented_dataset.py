@@ -3,7 +3,7 @@ import random
 import torch
 from torch.utils.data import Dataset
 
-from data.augmented_dataset import random_augment
+from data.manipulate_image import random_augment
 
 
 class Augmented_Dataset(Dataset):
